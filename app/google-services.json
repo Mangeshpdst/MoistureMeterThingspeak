@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "297834977902",
+    "project_id": "moisture-meter2",
+    "storage_bucket": "moisture-meter2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:297834977902:android:988205b005d5f6d0cee47f",
+        "android_client_info": {
+          "package_name": "com.example.moisturemeterthingspeak"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "297834977902-m66hian84pabtd6d2uat0g52bhvqp1k5.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.moisturemeterthingspeak",
+            "certificate_hash": "4484fb830a49086b4652e5fe0083d702eb9288b6"
+          }
+        },
+        {
+          "client_id": "297834977902-8enlr83pbnim8r3kb4iucrntc36ai1po.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRcMT4QqONxcDlMbebCXEwsHsjYpcNlLk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "297834977902-8enlr83pbnim8r3kb4iucrntc36ai1po.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

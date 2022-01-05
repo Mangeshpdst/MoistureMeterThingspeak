@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".welcomeActivity"
+    android:gravity="center"
+    android:background="@drawable/layout_background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome Mr.ABC"
+        android:textColor="@color/white"
+        android:textSize="20dp"
+        android:fontFamily="sans-serif-medium"
+        android:textStyle="bold"
+        android:layout_gravity="center"/>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/next_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next"
+        android:background="@drawable/buttons"
+        android:textColor="@color/white"
+        android:paddingHorizontal="40dp"
+        android:layout_marginTop="150dp"/>
+
+</LinearLayout>

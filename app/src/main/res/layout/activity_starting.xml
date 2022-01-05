@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Starting_Activity">
+
+    <FrameLayout
+        android:id="@+id/user_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/cardv1" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/cardv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginHorizontal="2.5dp"
+        app:cardCornerRadius="9dp">
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:id="@+id/bottom_navigation_user"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/purple_500"
+            app:itemIconTint="#5A5A5A"
+            app:itemTextColor="#5A5A5A"
+            app:menu="@menu/bottom_navigation_user" />
+    </androidx.cardview.widget.CardView>
+
+</RelativeLayout>

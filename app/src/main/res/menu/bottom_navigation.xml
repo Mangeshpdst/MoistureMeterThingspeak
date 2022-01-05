@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/settings"
+        android:icon="@drawable/ic_baseline_settings_24"
+        android:title="Settings"/>
+
+<!--    <item android:id="@+id/readings_admin"-->
+<!--        android:icon="@drawable/ic_baseline_document_scanner_24"-->
+<!--        android:title="Take Reading's"/>-->
+
+    <item android:id="@+id/previous_data"
+        android:icon="@drawable/ic_baseline_data_usage_24"
+        android:title="Data"/>
+
+    <item android:id="@+id/home"
+        android:icon="@drawable/ic_baseline_home_24"
+        android:title="Home"/>
+
+    <item android:id="@+id/edit"
+        android:icon="@drawable/ic_baseline_edit_24"
+        android:title="Edit"/>
+
+    <item android:id="@+id/profile"
+        android:icon="@drawable/profile_ic"
+        android:title="Profile"/>
+
+
+</menu>
